@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(24, 52, 28);
+}
+
+h1 {
+  text-align: center;
+  font-size: 75px;
+  margin: auto;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 600px;
+  margin: auto;
+}
+
+td {
+  border: 2px solid black;
+  width: 75px;
+  height: 75px;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 45px;
+  line-height: 71px;
+  overflow: hidden;
+  color: white;
+  cursor: pointer;
+}
+
+tr:nth-child(even) td:nth-child(even),
+tr:nth-child(odd) td:nth-child(odd) {
+  background-color: #2E5EAA;
+}
+
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+  background-color: #C0392B;
+}
+
+#pcontador {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+
+#pganador {
+  font-size: 48px;
+  color: white;
+  text-align: center;
+}
