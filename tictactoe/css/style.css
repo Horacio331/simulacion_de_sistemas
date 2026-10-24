@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    background: linear-gradient(160deg, #1e1b4b, #312e81);
+    color: #f8fafc;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px 0 15px;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+#mensaje {
+    min-height: 40px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fde68a;
+}
+
+table {
+    position: relative;
+    margin: 0 auto 25px;
+    border-collapse: collapse;
+}
+
+td {
+    position: relative;
+    border: 6px solid #a5b4fc;
+    padding: 0;
+}
+
+tr:first-child td {
+    border-top: none;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+td:first-child {
+    border-left: none;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+.casilla {
+    width: 130px;
+    height: 130px;
+    border: none;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.casilla:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.casilla.ganadora {
+    background-color: rgba(253, 230, 138, 0.35);
+}
+
+button {
+    width: 180px;
+    height: 50px;
+    margin: 0 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background: #fbbf24;
+    color: #1e1b4b;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #fcd34d;
+}
